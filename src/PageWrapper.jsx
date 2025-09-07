@@ -257,7 +257,8 @@ export default function PageWrapper(props) {
                     <p>Stars: <a href="#">Chris Hemsworth,  </a> <a href="#">  Natalie Portman,</a><a href="#">Tom Hiddleston</a></p>
                   </div>
                 </div> */}
-              <div className="topbar-filter">
+              {/* Paginacion */}
+              {/* <div className="topbar-filter">
                 <label>Movies per page:</label>
                 <select>
                   <option value="range">5 Movies</option>
@@ -269,7 +270,7 @@ export default function PageWrapper(props) {
                   <a href="#">2</a>
                   <a href="#"><i className="ion-arrow-right-b"></i></a>
                 </div>
-              </div>
+              </div> */}
 
             </div>
             <div className="col-md-4 col-sm-12 col-xs-12">

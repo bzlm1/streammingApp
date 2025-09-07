@@ -5,6 +5,7 @@ import './App.css'
 import Pelicula from './Pelicula'
 import PageWrapper from './PageWrapper'
 import PeliculasJson from './peliculas.json'
+import Paginacion from './Paginacion'
 
 function App() {
 
@@ -25,6 +26,10 @@ function App() {
           estrellas={pelicula.estrellas}
         />
       })}
+      <Paginacion pagina={2} total={4} onChange={(pagina) => {
+        alert(pagina)
+      }} />
+      {/* <Paginacion /> */}
     </PageWrapper>
 
 
