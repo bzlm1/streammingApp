@@ -71,3 +71,10 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+.movie-item-style-2 img {
+  width: 30%;
+}
+
+.movie-item-style-2 .mv-item-infor {
+  width: 70%;
+}
