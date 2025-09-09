@@ -8,7 +8,7 @@ import Paginacion from './Paginacion'
 
 function App() {
   // ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
-  const itemsXPagina = 7
+  const itemsXPagina = 3
   const [paginaActual, setPaginaActual] = useState(1)
   const [peliculasListas, setPeliculasListas] = useState([])
   useEffect(() => {
@@ -60,8 +60,8 @@ function App() {
 
   return (
     <PageWrapper>
-      <button onClick={buscarPeliculas}>Prueba</button>
-      {peliculasListas.map(pelicula => {
+
+      {peliculasPorPagina.map(pelicula => {
         return <Pelicula
           image={pelicula.image}
           title={pelicula.title}
