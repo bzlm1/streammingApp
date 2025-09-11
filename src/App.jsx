@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react'
-import ListadoPeliculas from './ListadoPeliculas'
-import Blog from './Blog'
+import ListadoPeliculas from './views/ListadoPeliculas'
+import Blog from './views/Blog'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 function App() {
+
   return (
     <BrowserRouter>
       <Routes>
