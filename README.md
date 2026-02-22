@@ -14,22 +14,3 @@ If you are developing a production application, we recommend using TypeScript wi
 Yo con el boton hice un prueba de cargar peliculas, y al darle click pintalla de peliculas, ya no servio con el usseEffect []
 npm install react-router-dom
 React hook es la manera más comun de manejar proyectos react sin embarhoa ntes se manejaban componentes con clases en react
-
-componentDidMount(){}
-es algo propio de react
-es una funcion q se va a ejecutar cuando el componente se haya cargado
-
-el equivalente en react hooks es
-useEffect(() => {
-    buscarPeliculas()
-  }, [])
-
-componentDidUpdate(){}
-es algo propio de react
-es que cada vez que se actualize/refresque el componente se va a ejecutar esta funcion.
-Se ejecuta siempre que se refresque algo.
-
-el equivalente en react hooks es
-useEffect(() => {
-    buscarPeliculas()
-})
